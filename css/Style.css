@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lilita+One&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lilita+One&family=Sigmar+One&display=swap');
+
+/* SELECTORES BASICOS */
+header, section, article, nav, footer, aside, figure, form{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    background: #fff;
+}
+*{
+    box-sizing: border-box;
+}
+p, h1, h2,h3, h4{
+    font-size:14px;
+    font-family: 'Sigmar One', cursive;
+    background: linear-gradient(90deg, #19010F 45.0%, #DD0606 60.0%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    margin: 6px;
+}
+h1{font-size: 64px;}
+h2{font-size: 20px;}
+h3{font-size: 18px;}
+h4{font-size: 16px;}
+p{font-size: 14px;}
+a{
+    text-decoration: none;
+    color:white;
+}
+a img{
+    border: none,
+}
+ul, li{
+    font-size: 14px;
+    color: #555555;
+}
+#scrollUp{
+    width: 60px;
+    height: 60px;
+    bottom: 10px;
+    right: 10px;
+    /* background-image: ; */
+}
+#cajacabercera{
+    width: 100%;
+    height: 167px;
+    background: linear-gradient(90deg, #18000F 0%, #DD0606 100%);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+#cabecera{
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+}
+#logo{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+/* -------------------MENU------------------------ */
+
+.menu{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+#btn-menu{
+    display: none;
+}
+#mmovil{
+    font-size: 30px;
+    cursor: pointer;
+    text-align: right;
+    color: #edbc65;
+    display: none;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu a{
+    display: block;
+    line-height: 90px;
+    padding: 0 10px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+.menu a i{
+    font-size: 40px;
+    padding: 0 5px;
+}
+.menu a:hover{
+    color: #fff;
+    border-bottom: 2px solid #f2f2f2;
+    background-color: #edbc65;
+}
+.seccion{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+#banner{
+    background-image: url("../Imágenes/LogoMothersDay.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 1004px;
+    position: relative;
+    margin-top: 177px;
+}
+
+.inicio, .calendario, .articulos, .mas{
+    height: 920px;
+}
+.inicio, .articulos{
+    background: #E9E9E9 url("../Imágenes/tren.png") no-repeat right bottom;
+    position: relative;
+    padding-top: 167px;
+}
+.calendario, .mas{
+    background: #fff url("../Imágenes/fondo-ciudad.png") no-repeat bottom;
+    position: relative;
+    padding-top: 167px;
+}
+
+/* ---------------------------------------------------
+---------------PIE DE PAGINA-----------------------
+--------------------------------------------------- */
+#piepagina{
+    background: #B70000;
+    padding: 2% 0;
+}
+.cajapie{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    height: 167px;
+    align-items: center;
+}
+#piepagina p{
+    text-align: center;
+    color: #ffffff;
+}
+#piepagina ul{
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+#piepagina ul li{
+    padding: 0 5px;
+    
+}
+#piepagina ul li a{
+    display: block;
+    line-height: 40px;
+    color: #ECAA1F;;
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+}
+
+#piepagina .cajapie h2{
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
